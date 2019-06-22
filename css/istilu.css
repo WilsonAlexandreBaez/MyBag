@@ -2,6 +2,10 @@
     font-family: 'Raleway', sans-serif;
 
 }
-body {
-    
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 
 }
