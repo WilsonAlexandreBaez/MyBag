@@ -1,0 +1,6 @@
+class PopulaPage {
+
+    static listaPrudutos(){
+
+    }
+}
