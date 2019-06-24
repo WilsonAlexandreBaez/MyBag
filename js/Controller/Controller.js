@@ -14,8 +14,8 @@ function listaConteudo() {
         <h2>${element.nome}</h2>
         <p>${element.decricao}</p>
         <p>${element.preco}</p>
-    </div>
-       
+    </div id="add-cestinha">
+    <img src="${element.add}">
     </div>`
 }
 
