@@ -1,22 +1,28 @@
 
 /* NAVBAR */
-.cadastro {
+.nav-cadastro {
     font-size: auto;
     background-color: rgb(110, 155, 214);
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
 }
-.cadastro img {
-    height: 35px;
+.nav-cadastro .menu-nav {
+    margin-left: 2px;
+    height: 50px;
 
 }
-.cadastro h1 {
+.nav-cadastro .bag-nav {
+    margin-left: 2px;
+    height: 50px;
+
+}
+.nav-cadastro h1 {
     color: white;
     font-weight: 300;
     margin-left: 20px;
 }
-.cadastro div {
+.nav-cadastro div {
     display: flex;
 }
 /* Confikguração de stilo do formulario*/
