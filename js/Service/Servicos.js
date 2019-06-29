@@ -6,7 +6,7 @@ class PopularPage {
         }
     }
     /**
-     * buscar todos o produtos cadastrados 
+     * buscara todos o produtos cadastrados 
      */
 
     static buscarTodos() {
@@ -18,10 +18,9 @@ class PopularPage {
     
 }
 
-/** 
-/* let produtos = JSON.parse(localStorage.getItem("mochilas"))
-        if (!mochilas) {
+/**
+ *  let produtos = JSON.parse(localStorage.getItem("produtos"))
+        if (!produtos) {
             return []            
-        }else return mochila
-*/
- 
+        }else return produtos
+ */
