@@ -24,10 +24,4 @@ function listaConteudo() {
     <img src="${element.add}">
     </div>
     `
-}
-
-
-/**
- NADA
-    */
-}
+}}
