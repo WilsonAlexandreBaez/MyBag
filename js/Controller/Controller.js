@@ -8,7 +8,7 @@ function listaConteudo() {
     let cadastro = PopularPage.buscarTodos()
     for (let i = 0; i < cadastro.length; i++) {
         const element = cadastro[i];
-        
+      //local de ajuste  
     
     document.getElementById("mochilas").innerHTML += 
     /*html */`<div>
