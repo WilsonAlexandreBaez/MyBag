@@ -9,30 +9,18 @@ function listaConteudo() {
     let cadastro = PopularPage.buscarTodos()
     for (let i = 0; i < cadastro.length; i++) {
         const element = cadastro[i];
-<<<<<<< HEAD
-        //local de ajuste  
-
         document.getElementById("mochilas").innerHTML +=
             /*html */
             `<div>
-=======
-      //local de ajuste  
-    
-    document.getElementById("mochilas").innerHTML += 
-    /*html */`<div>
->>>>>>> 9471983b53a0e6272e58caf51dbdd993c5b9e22c
     <div class="img-produto">
     <img src="${element.img}" alt="${element.nome}">
     </div>
-    <div class="descricao">
+    <div class="mochilas-descricao">
         <h2>${element.nome}</h2>
         <p>${element.descricao}</p>
         <p>${element.preco}</p>
     </div>
-    <div  id="add-cestinha">
-    <img src="${element.add}">
-    </div>
-    `
+        `
     }
 
 
