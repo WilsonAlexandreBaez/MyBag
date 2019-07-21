@@ -1,0 +1,102 @@
+categoria:Masculinos
+imagem: https://images-submarino.b2w.io/produtos/01/00/image/53359/9/53359959_1GG.jpg
+descricao: Mochila para notebook em couro com saida para fones de ouvido
+valor: 
+
+imagem: https://http2.mlstatic.com/mochila-masculina-executiva-notebook-c-cadeado-swissport-D_NQ_NP_724248-MLB28515251579_102018-Q.jpg
+descricao: Mochila Masculina Executiva Notebook C/ Cadeado Swissport
+valor:
+
+imagem: https://ae01.alicdn.com/kf/HTB11rJIKFXXXXanXXXXq6xXFXXXW/Nova-moda-mochila-de-viagem-masculina-tamanho-grande-saco-de-nylon-caminhadas-mochilas-militares-mulheres-homens.jpg_640x640.jpg
+descricao:Nova moda mochila de viagem masculina, tamanho grande saco de nylon, caminhadas mochilas militares
+valor:
+
+imagem: http://www.mariabrinquedo.pt/images/cate_16/640/CA%C3%87ADOR-%C3%81RTICO-130028-Grife-Saco-Peito-Masculino-Ombro-Saco-Repelente-de-%C3%81gua-Sacos-Crossbody-Sling-Bag-para-Viagem-de-Carregamento-USB-Bolsas-Masculinas-Bd9Hi0Ge8Xn8-jxt0.jpg
+descricao: CAÇADOR ÁRTICO 130028 Grife Saco Peito Masculino Ombro Saco Repelente de Água Sacos Crossbody Sling Bag
+valor:
+
+imagem: http://www.weekchic.pt/imgs/cate_13/640/TIDING-homens-business-casual-genu%C3%ADno-couro-crossbody-mensageiro-shoulder-tote-bag-pequeno-alta-qualidade-Bolsas-Masculinas-Rl5Bc9Mj7We0-ben0.jpg
+descricao: TIDING homens business casual genuíno couro crossbody mensageiro shoulder tote bag, pequeno alta qualidade Bolsas
+valor:
+
+categoria:Femininas
+
+imagem:https://images-submarino.b2w.io/produtos/01/00/sku/40397/4/40397401P1.jpg
+titulo: Mochla Jeansport Vinho
+descricao:Mochila femenina em nylon com bolsos frontais - vinho
+valor:
+
+imagem:https://images-submarino.b2w.io/produtos/01/00/images/67573/7/67573705_1GG.jpg
+titulo: Mochila Jansport
+descricao:Mochila Jansport Right Pack - Yellow Card Amarela Typ77mm
+valor:
+
+imagem:https://images-submarino.b2w.io/produtos/01/00/oferta/48135/1/48135152_1GG.jpg
+titulo: Mochila Xadrez
+descricao:Mochila Xadrez Out Grande - Ref: 52063 - Dermiwil
+valor:
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/image/80518/9/80518987_1GG.jpg
+titulo: Bolsa Mochila
+descricao: Bolsa Mochila Maternidade Multifunção Land Original
+valor: R$ 209,99
+
+imagem:https://images-submarino.b2w.io/produtos/01/00/image/80500/7/80500737_1GG.jpg
+titulo: Bolsa Mochila
+descricao: Bolsa Mochila Maternidade Multifunção Estampada
+valor: R$ 139,99
+
+
+Categoria:Infantil
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/51990/5/51990586_1GG.jpg
+titulo:Mochila Carros
+descricao:Kit mochila carros infantil vozz + lancheira + estojo - Vermelha
+valor:R$ 274,99
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/29977/0/29977086_2GG.jpg
+titulo:Mochila Fast Machine Racing
+descricao:Mochila Infantil c/ Rodinhas Fast Machine Racing
+valor: R$ 244,99
+
+imagem:https://images-submarino.b2w.io/produtos/01/00/oferta/12185/9/12185901_1GG.jpg 
+titulo:Mochila Homem-Aranha
+descricao:Mochila De Rodinhas Infantil Sestini M 16z Preta Homem-Aranha
+valor: R$ 149,00
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/51926/9/51926977_1GG.jpg
+titulo:Mochila Cinderela
+descricao:Mochila Dermiwil Cinderela Azul 
+valor: R$ 78,00
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/58382/2/58382209_1GG.jpg
+titulo: Mochila Rosa Princesas
+descricao:Mochila Infantil Rosa Princesas Dermiwil 
+valor: R$ 67,00
+
+Categoria:Viagens
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/images/49823/6/49823652_1GG.jpg
+titulo: Mala pequena de bordo
+descricao: Mala pequena de bordo havana, abs, 4 rodas e fechadura - preta
+valor:R$ 139,90
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/62109/3/62109303_1GG.jpg
+titulo: Conjunto De Malas De Viagem
+descricao: Conjunto De Malas De Viagem Abs Giro 360 Santino Geometric
+valor: R$ 689,90
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/72713/7/72713713_1GG.jpg
+titulo: Mala de Bordo
+descricao: Mala de Bordo em ABS Com 4 Rodas 360° - Portinari Gold
+valor:R$ 169,80
+
+imagem:https://images-submarino.b2w.io/produtos/01/00/oferta/65161/0/65161006_1GG.jpg 
+titulo: Mala Bordo 
+descricao: Mala Rígida De Fibra 360° Tamanho Bordo - Gladiador - B1- Vermelho
+valor: R$ 189,80
+
+imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/23262/6/23262682_1GG.jpg
+titulo: Mala de Viagem Cadeado 
+descricao:Mala de Viagem Grande Rodinha 360° com Cadeado Chess 2 Preto Sestini
+valor:R$ 399,90
