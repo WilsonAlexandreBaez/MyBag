@@ -100,3 +100,6 @@ imagem: https://images-submarino.b2w.io/produtos/01/00/oferta/23262/6/23262682_1
 titulo: Mala de Viagem Cadeado 
 descricao:Mala de Viagem Grande Rodinha 360° com Cadeado Chess 2 Preto Sestini
 valor:R$ 399,90
+
+FONTES
+https://tableless.com.br/criando-slideshow-zero-com-javascript-puro-2/

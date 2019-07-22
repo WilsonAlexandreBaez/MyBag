@@ -5,7 +5,7 @@ b* {
 
 a,img {
     border: none;
-    object-fit: cover;
+    
 }
 
 .trs {
@@ -13,11 +13,13 @@ a,img {
     -moz-transition:all ease-out 0.5s;
     -o-transition:all ease-out 0.5s;
     -ms-transition:all ease-out 0.5s;
-    transition:all ease-out 0.5s;}  
+    transition:all ease-out 0.5s;
+}  
 
 #slider {
     position: relative; 
-    z-index: 1;}
+    z-index: 1;
+}
 
 #slider a { 
     position: absolute; 
@@ -46,7 +48,8 @@ span {
 .next {
     right: 10px;
 }
-.next:before,.next:after {
+.next:before,
+.next:after {
     left: 21px;
 }
 .next:before {
@@ -63,8 +66,12 @@ span {
     width: 1px;
     position: absolute;
 }
-.prev {left: 10px;}
-.prev:before,.prev:after {left: 18px;}
+.prev {
+    left: 10px;
+}
+.prev:before,.prev:after {
+    left: 18px;
+}
 .prev:before {
     -webkit-transform: rotate(42deg);
     top: 5px;
@@ -98,5 +105,5 @@ figcaption {
     left: 0; 
     line-height: 55px; 
     height: 55px; 
-    z-index: 5
+    z-index: 5;
 }
