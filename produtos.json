@@ -1,19 +1,143 @@
 [
     {
-        "categoria":"masculino",
-        "marca":"1",
-        "tipo":"2",
+        "categoria":"Masculino",
+        "marca":"MyBag-Gabriel",
+        "tipo":"Sport",
         "img": "https://images.tcdn.com.br/img/img_prod/465173/mochila_sport_savana_18_l_com_5_compartimentos_moto_ciclista_260_1_20190418155338.jpg",
         "nome": "Mochila Sport Savana ",
-        "descricao": "Mochila Sport Savana 18 L Com 5 Compartimentos Moto Ciclista",
+        "descricao": "Mochila Sport MyBag-Gabriel 18 L Com 5 Compartimentos Moto Ciclista",
         "preco": "R$ 280,00",
         "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
     },
     {
+        "categoria":"Masculino",
+        "marca":"MyBag-Baez",
+        "tipo":"Profissional",
         "img": "https://cdn.awsli.com.br/600x450/420/420053/produto/27511504/1a0028eb9f.jpg",
-        "nome": "Mochila Victorinox ",
-        "descricao": "Mochila Vermelha reforçada",
+        "nome": "Mochila MyBag-Baez",
+        "descricao": "Mochila Vermelha Reforçada",
         "preco": "R$ 250,00",
         "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
-    }
+    },
+    {
+        "categoria":"Masculino",
+        "marca":"MyBag-Gabriel",
+        "tipo":"Sport",
+        "img": "https://images.tcdn.com.br/img/img_prod/465173/mochila_sport_savana_18_l_com_5_compartimentos_moto_ciclista_260_1_20190418155338.jpg",
+        "nome": "Mochila Sport Savana ",
+        "descricao": "Mochila Sport MyBag-Gabriel 18 L Com 5 Compartimentos Moto Ciclista",
+        "preco": "R$ 280,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Masculino",
+        "marca":"MyBag-Gabriel",
+        "tipo":"Sport",
+        "img": "https://images.tcdn.com.br/img/img_prod/465173/mochila_sport_savana_18_l_com_5_compartimentos_moto_ciclista_260_1_20190418155338.jpg",
+        "nome": "Mochila Sport Savana ",
+        "descricao": "Mochila Sport MyBag-Gabriel 18 L Com 5 Compartimentos Moto Ciclista",
+        "preco": "R$ 280,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Feminina",
+        "marca":"MyBag-Baez",
+        "tipo":"Mochila",
+        "img": "https://cdn.awsli.com.br/600x450/420/420053/produto/27511504/1a0028eb9f.jpg",
+        "nome": "Mochila Marlim bag",
+        "descricao": "Mochila femenina para mulheres que carrega a casa com ela.",
+        "preco": "R$ 250,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Feminina",
+        "marca":"MyBag-Baez",
+        "tipo":"Bolsa low blow",
+        "img": "https://cdn.awsli.com.br/600x450/420/420053/produto/27511504/1a0028eb9f.jpg",
+        "nome": "Mochila Marlim bag",
+        "descricao": "Bolsaso com varios compartimentos internos para não encontrar o cartão e pagar a conta.",
+        "preco": "R$ 250,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Feminina",
+        "marca":"MyBag-Gabriel",
+        "tipo":"Carteira",
+        "img": "https://images.tcdn.com.br/img/img_prod/465173/mochila_sport_savana_18_l_com_5_compartimentos_moto_ciclista_260_1_20190418155338.jpg",
+        "nome": "Salary Wage",
+        "descricao": "Carteira da louca já vem com proteção cotra mulheres que gastão alem do orçamento. ",
+        "preco": "R$ 280,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Feminina",
+        "marca":"MyBag-Baez",
+        "tipo":"Bolsa",
+        "img": "https://cdn.awsli.com.br/600x450/420/420053/produto/27511504/1a0028eb9f.jpg",
+        "nome": "Bolsa Dama Vermelha",
+        "descricao": "Bolsa com suporte para celular, arma de choque.",
+        "preco": "R$ 250,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Infantil",
+        "marca":"MyBag-Gabriel",
+        "tipo":"Mochila",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61Ck6Oa7WTL._SL1000_.jpg",
+        "nome": "Invictus Defender",
+        "descricao": "Tendencia militar similar a de jogos tipo PUBG",
+        "preco": "R$ 380,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Infantil",
+        "marca":"MyBag-Gabriel",
+        "tipo":"Mochila",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/91X75MZZ5iL._SL1500_.jpg",
+        "nome": "Mochila de lona Denlex",
+        "descricao": "Ideal para estudo de laser reforçada com vaios compartimentos",
+        "preco": "R$ 280,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Infantil",
+        "marca":"MyBag-Baez",
+        "tipo":"Mochila",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/41pY9hQlDML.jpg",
+        "nome": "Mochila Kingsons",
+        "descricao": "Mochila Kingsons Usb Resistente: Água e Material Cortante 17,3",
+        "preco": "R$ 250,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Infantil",
+        "marca":"MyBag-Baez",
+        "tipo":"Mochila",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61yeB555xtL._SL1024_.jpg",
+        "nome": "Mochila OutAction",
+        "descricao": "Mochila Escolar Out Unltd Girls Grande 3 Bolsos Dermiwil",
+        "preco": "R$ 180,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"Infantil",
+        "marca":"MyBag-Baez",
+        "tipo":"Mochila",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51Z3HnYzpYL._SL1000_.jpg",
+        "nome": "Mochila Masha e o Urso",
+        "descricao": "Mochila Mochilete Escolar 3D e Lancheira MaxToy Masha e o Urso",
+        "preco": "R$ 245,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+    {
+        "categoria":"",
+        "marca":"MyBag-Baez",
+        "tipo":"Mala",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51Z3HnYzpYL._SL1000_.jpg",
+        "nome": "Mala ",
+        "descricao": "  ",
+        "preco": "R$ ,00",
+        "add": "https://image.flaticon.com/icons/svg/1077/1077979.svg"
+    },
+
 ]
