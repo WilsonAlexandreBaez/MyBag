@@ -3,7 +3,7 @@ function listaConteudo() {
     //inserção de dados para tste no localStorang
 
 
-    let cadastro = PopularPage.buscarTodos()
+    let cadastro = PopularPage.masculino()
     for (let i = 0; i < cadastro.length; i++) {
         const element = cadastro[i];
         document.getElementById("mochilas").innerHTML +=

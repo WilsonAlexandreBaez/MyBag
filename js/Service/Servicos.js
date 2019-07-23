@@ -16,4 +16,5 @@ class PopularPage {
         else return produtos_db
     }
 
+
 }
