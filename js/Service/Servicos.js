@@ -19,10 +19,16 @@ class PopularPage {
     static masculino() {
 
         let masculino = JSON.parse(localStorage.getItem("produtos_db"))
-        masculino.produtos_db.forEach(function(produtos_db) {
-            alert(produtos_db.categoria)
+        for (let i = 0; i < masculino.length; i++) {
+            const element = masculino[i];
+            if (masculino.categoria != "masculino")  {
+                return[]
+            } else {
+                return masculino
+                
+            }
             
-        });
+        }
     }
 
 }
