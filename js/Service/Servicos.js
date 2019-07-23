@@ -17,13 +17,14 @@ class PopularPage {
     }
 
     static masculino() {
+        
         let produtos_db = JSON.parse(localStorage.getItem("produtos_db"))
         for (let i = 0; i < produtos_db.length; i++) {
-            if (produtos_db[0].categoria == "Masculino") {
+            if (typeof produtos_db[0].categoria === "Masculino") {
                 let produtos_mb = produtos_db[i]
+                if (!produtos_mb) return []
+                else return produtos_mb                
             }
         }
-        if (!produtos_mb) return []
-        else return produtos_mb
     }
 }
