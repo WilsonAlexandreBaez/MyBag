@@ -15,17 +15,15 @@ class PopularPage {
         if (!produtos_db) return []
         else return produtos_db
     }
-    static mascullino() {
+
+    static masculino() {
         let produtos_db = JSON.parse(localStorage.getItem("produtos_db"))
-        //Objeto
-        let produtos = produtos_db;
-
-        //Para prop (propriedade) in obj (objeto) faça
-        for (var prop in produtos_db) {
-            // ctrl+shift+k (para abrir o console no mozilla firefox)
-            console.log("produtos_db." + prop + " = " + produtos_db[prop]);
+        for (let i = 0; i < produtos_db.length; i++) {
+            if (produtos_db[0].categoria == "Masculino") {
+                let produtos_mb = produtos_db[i]
+            }
         }
-
+        if (!produtos_mb) return []
+        else return produtos_mb
     }
-
 }
