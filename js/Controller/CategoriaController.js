@@ -1,4 +1,4 @@
-function listaConteudo() {
+function listaCategoria() {
 
     //inserção de dados para tste no localStorang
 
