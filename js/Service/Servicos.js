@@ -11,9 +11,9 @@ class PopularPage {
 
     static buscarTodos() {
 
-        let produtos_mb = JSON.parse(localStorage.getItem("produtos_mb"))
-        if (!produtos_mb) return []
-        else return produtos_mb
+        let produtos_db = JSON.parse(localStorage.getItem("produtos_db"))
+        if (!produtos_db) return []
+        else return produtos_db
     }
 
 }

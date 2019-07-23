@@ -25,6 +25,7 @@ body {
     justify-items: left;
 }
 
+
 /*DESTAQUE*/
 
 .destaque-semana h2 {
@@ -42,10 +43,10 @@ body {
 #mochilas {
     width: calc(100% - 40px);
     margin: 0px auto;
-    border-radius: 10px;
     overflow: hidden;
     background-color: rgb(255, 253, 253);
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 #mochilas div .img-produto {
@@ -99,14 +100,16 @@ body {
 #mochilas .mochilas-descricao p {
     font-size: 11pt;
     color: black;
+    padding: 3px 0px;
 }
 
 #mochilas .mochilas-descricao p:last-child {
     color: blue;
+    padding: 8px 0px;
 }
 
 #mochilas .detalhe-produto .produto-preco {
-    font-size: 18pt;
+    font-size: 25pt;
     color: blue;
 }
 
@@ -164,13 +167,29 @@ body {
 
 .detalhe-produto .produto-preco {
     font-size: 18pt;
-    color: blue;
+    color: green;
 }
 
 */
 
 
 /*FOOTER*/
+
+#carregaStorage {
+    font-size: 40pt;
+    align-items: center;
+    color: green;
+    margin-top: 50px;
+}
+
+#carregaStorage button {
+    margin: 30px;
+    padding: 15px;
+    background: green;
+    color: white;
+    border-color: green;
+    text-transform: uppercase;
+}
 
 footer {
     bottom: -10;

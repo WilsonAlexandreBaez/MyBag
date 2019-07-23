@@ -14,8 +14,9 @@ function listaConteudo() {
     </div>
     <div class="mochilas-descricao">
         <h2>${element.nome}</h2>
-        <p>${element.descricao}</p>
-        <p>${element.preco}</p>
+        <p class="categoria">Categoria:${element.categoria}</p>
+        <p class="descricao">${element.descricao}</p>
+        <p class="preco">${element.preco}</p>
     </div>
         `
     }
