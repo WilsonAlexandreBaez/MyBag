@@ -1,4 +1,4 @@
-let produtoSelecionado = ProdutoService.buscarProdutoSelecionado()
+let produtoSelecionado = ControleProdutos.produtoSelecionado()
 
 function carregarProduto() {
 
@@ -24,7 +24,7 @@ function voltar() {
     }, 800 );
 }
 
-function adicionarCarrinho() {
+function addCarrinho() {
     let quantidade = document.getElementById("quantidade").value
     let item = {
         quantidade: quantidade,

@@ -15,7 +15,7 @@ function voltar() {
     history.go(-1)
 }
 
-function adicionarCarrinho() {
+function addCarrinho() {
     let quantidade = document.getElementById("quantidade").value
     let item = {
             quantidade: quantidade,
