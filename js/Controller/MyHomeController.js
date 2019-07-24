@@ -1,8 +1,6 @@
-let cadastro = ControleProdutos.buscarTodos()
+let produtosCadastrados = ControleProdutos.buscarTodos()
+
 function listaConteudo() {
-
-    //inserção de dados para tste no localStorang
-
 
     document.querySelector("body").style.animation = "zoom-out .8s"
 
@@ -10,12 +8,13 @@ function listaConteudo() {
         document.querySelector("body").style.opacity = "1"
     }, 800);
 
-    for (let i = 0; i < cadastro.length; i++) {
-        const element = cadastro[i];
+    for (let i = 0; i < produtosCadastrados.length; i++) {
+        const element = produtosCadastrados[i];
+
         document.getElementById("mochilas").innerHTML +=
             /*html */
             `<div>
-    <div class="img-produto" onclick"selecionarProduto(${i})">
+    <div class="img-produto" onclick="selecionarProduto(${i})">
     <img src="${element.img}" alt="${element.nome}">
     </div>
     <div class="mochilas-descricao">
