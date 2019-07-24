@@ -1,15 +1,18 @@
+let produtosCadastrados = ControleProdutos.buscarTodos()
 function listaConteudo() {
+    document.querySelector("body").style.animation = "zoom-out .8s"
 
-    //inserção de dados para tste no localStorang
+    setTimeout(() => {
+        document.querySelector("body").style.opacity = "1"
+    }, 800);
 
 
-    let cadastro = PopularPage.buscarTodos()
-    for (let i = 0; i < cadastro.length; i++) {
-        const element = cadastro[i];
+    for (let i = 0; i < produtosCadastrados.length; i++) {
+        const element = produtosCadastrados[i];
         document.getElementById("mochilas").innerHTML +=
             /*html */
             `<div>
-    <div class="img-produto">
+    <div class="img-produto" onclick"selecionarProduto(${i})">
     <img src="${element.img}" alt="${element.nome}">
     </div>
     <div class="mochilas-descricao">
@@ -23,12 +26,10 @@ function listaConteudo() {
 
 
 }
-/* Open */
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-}
-
-/* Close */
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
+function selecionarProduto(i) {
+    ControleProdutos.selecionarProduto(produtosCadastrados[i])
+    document.querySelector('body').style.animation = "zoom-in .8s" //aplica animação
+    setTimeout(() => {
+        location.href = "compras-mybag.html"
+    }, 750);
 }

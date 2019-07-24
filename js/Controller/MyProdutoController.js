@@ -1,4 +1,4 @@
-let produtoSelecionado = ProdutoService.buscarProdutoSelecionado()
+let produtoSelecionado = ControleProdutos.produtoSelecionado()
 
 function carregarProduto() {
 
