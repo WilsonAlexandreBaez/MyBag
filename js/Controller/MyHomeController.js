@@ -1,14 +1,17 @@
-let produtosCadastrados = ControleProdutos.buscarTodos()
+let cadastro = ControleProdutos.buscarTodos()
 function listaConteudo() {
+
+    //inserção de dados para tste no localStorang
+
+
     document.querySelector("body").style.animation = "zoom-out .8s"
 
     setTimeout(() => {
         document.querySelector("body").style.opacity = "1"
     }, 800);
 
-
-    for (let i = 0; i < produtosCadastrados.length; i++) {
-        const element = produtosCadastrados[i];
+    for (let i = 0; i < cadastro.length; i++) {
+        const element = cadastro[i];
         document.getElementById("mochilas").innerHTML +=
             /*html */
             `<div>
