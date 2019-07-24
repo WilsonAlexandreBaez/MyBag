@@ -10,7 +10,6 @@ class ControleProdutos {
      */
 
     static buscarTodos() {
-
         let produtos_db = JSON.parse(localStorage.getItem("produtos_db"))
         if (!produtos_db) return []
         else return produtos_db

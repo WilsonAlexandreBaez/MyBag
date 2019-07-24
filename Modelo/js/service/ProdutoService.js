@@ -16,7 +16,6 @@ class ProdutoService {
      */
     static buscarTodos() {
         let produtos = JSON.parse(localStorage.getItem("produtos"))
-
         if(!produtos) return []
         else return produtos
     }
