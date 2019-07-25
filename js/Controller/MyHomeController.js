@@ -20,12 +20,11 @@ function listaConteudo() {
 
 }
 
-/* Open */
-function openNav() {
-    document.getElementById("myNav").height = "100%";
-}
 
-/* Close */
-function closeNav() {
-    document.getElementById("myNav").height = "0%";
-}
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }

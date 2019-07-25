@@ -14,32 +14,20 @@
 
 <body onload="listaConteudo()">
     <header>
-        <nav class="nav">
-            <div><!-- The overlay -->
-                <div id="myNav " class="overlay ">
-        
-                    <!-- Button to close the overlay navigation -->
-                    <a href="javascript:void(0) " class="closebtn " onclick = "closeNav() ">&times;</a>
-        
-                    <!-- Overlay content -->
-                    <div class="overlay-content ">
-                        <a href="home-mybag.html ">HOME</a>
-                        <a href="masculino-mybag.html ">MASCULINO</a>
-                        <a href="feminina-mybag.html ">FEMENINA</a>
-                        <a href="infantil-mybag.html ">INFANTIL</a>
-                        <a href="viagem-mybag.html ">VIAGEM</a>
-                        <a href="#">CARRINHO</a>
-        
-                    </div>
-        
+        <nav class="navmenu">
+            <h1>My Bag - Style</h1>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
                 </div>
-                <span onclick = "openNav()">open</span>
-                <!-- Use any element to open/show the overlay navigation menu -->
-        
             </div>
-            
-            <h1> MyBag Style</h1>
-            
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
         </nav>
     </header>
 
@@ -49,7 +37,7 @@
     <footer class="footer ">
         <p>Posted by: Wilson&Gabriel</p>
         <p>Contact information: <a href="mailto:mybag@mybag.com ">
-            mybag@mybag.com</a>.</p>
+                mybag@mybag.com</a>.</p>
     </footer>
 </body>
 
