@@ -1,6 +1,6 @@
-let produtoSelecionado = ControleProdutos.produtoSelecionado()
 
 function carregarProduto() {
+    let produtoSelecionado = ControleProdutos.produtoSelecionados()
 
     document.getElementById("nome").innerHTML = produtoSelecionado.nome
     document.getElementById("descricao").innerHTML = produtoSelecionado.descricao

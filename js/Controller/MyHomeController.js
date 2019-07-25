@@ -1,6 +1,5 @@
-let produtosCadastrados = ControleProdutos.buscarTodos()
-
 function listaConteudo() {
+    let produtosCadastrados = ControleProdutos.buscarTodos()
     document.querySelector("body").style.animation = "zoom-out .8s"
 
     setTimeout(() => {
@@ -25,9 +24,7 @@ function listaConteudo() {
         `
     }
 
-
 }
-
 function selecionarProduto(i) {
     ControleProdutos.selecionarProduto(produtosCadastrados[i])
     document.querySelector('body').style.animation = "zoom-in .8s" //aplica animação
