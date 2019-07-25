@@ -8,57 +8,28 @@
     <link rel="stylesheet" href="css/my-estilo.css">
     <link rel="stylesheet" href="css/reset.css">
     <script src="js/Controller/MyController.js"></script>
-    <script src="js/Controller/Controller.js"></script>
     <script src="js/Service/Servicos.js"></script>
     <title>MyBag</title>
 </head>
 
 <body onload="listaConteudo()">
-    <header>
-        <nav class="nav">
-            
-            <div>
-                <img src="img/backpack.png" alt="Menu Home" onclick="openDrawer()">
-            </div>
-            <h1> MyBag Style</h1>
-        </nav>
-    </header>
 
-    <section id="mochilas"></section>
-
-    <div class="drawer">
-        <div class="drawer-menu">
-            <div class="drawer-menu-close">
-                <img src="img/close.svg" alt="Ícone de fechar" onclick="closeDrawer()">
-            </div>
-
-            <div class="drawer-title">
-                MyBag Style
-            </div>
-            <div class="menu-itens">
-                <div class="menu-item">
-                    <a href="index.html">
-                        <div>
-                            <img src="img/backpack.png" alt="Ícone index"> Home
-                        </div>
-                    </a>
-                </div>
-                <div class="menu-item">
-                    <a href="carrinho.html">
-                        <div>
-                            <img src="img/cart.svg" alt="Ícone carrinho"> Carrinho
-                        </div>
-                    </a>
-                </div>
-            </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
         </div>
-        <div class="drawer-close" onclick="closeDrawer()"></div>
     </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <section id="mochilas"></section>
 
     <footer class="footer">
         <p>Posted by: Wilson&Gabriel</p>
         <p>Contact information: <a href="mailto:mybag@mybag.com">
-            mybag@mybag.com</a>.</p>
+                mybag@mybag.com</a>.</p>
     </footer>
 </body>
 
