@@ -36,8 +36,8 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(149, 241, 169);
-    background-color: rgba(149, 241, 169, 0.9);
+    background-color: rgb(3, 3, 3);
+    background-color: rgba(74, 78, 75, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
   }
@@ -54,10 +54,25 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: whitesmoke;
     display: block;
     transition: 0.3s;
   }
+  .cor-a {
+      background-color: #00330063;
+  }
+  .cor-b {
+    background-color: #00660063;
+}
+.cor-c {
+    background-color:#00990063;
+}
+.cor-d {
+    background-color: #00CC0063;
+}
+.cor-e {
+    background-color: #33ff3363;
+}
   
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
