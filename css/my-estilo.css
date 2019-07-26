@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(18, 134, 76);  
+    background: rgb(18, 134, 76);
     color: #fff;
     padding: 15px;
 }
@@ -23,14 +23,15 @@ body {
 }
 
 .navmenu img {
-    width: 15px;
-    height: 15px;
-    
+    width: 25px;
+    height: 25px;
 }
+
 .nav-menu {
     align-items: initial;
     justify-items: left;
 }
+
 
 /*menu*/
 
@@ -45,60 +46,74 @@ body {
     background-color: rgba(74, 78, 75, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
-  }
-  
-  .overlay-content {
+}
+
+.overlay-content {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
-  }
-  
-  .overlay a {
+}
+
+overlay-content:hover {
+    background-color: #0099cc;
+}
+
+.overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: whitesmoke;
     display: block;
     transition: 0.3s;
-  }
-  .cor-a {
-      background-color: #00330063;
-  }
-  .cor-b {
+}
+
+.cor-a {
+    background-color: #00330063;
+}
+
+.cor-b {
     background-color: #00660063;
 }
+
 .cor-c {
-    background-color:#00990063;
+    background-color: #00990063;
 }
+
 .cor-d {
     background-color: #00CC0063;
 }
+
 .cor-e {
     background-color: #33ff3363;
 }
-  
-  .overlay a:hover, .overlay a:focus {
+
+.overlay a:hover,
+.overlay a:focus {
     color: #f1f1f1;
-  }
-  
-  .overlay .closebtn {
+}
+
+.overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .overlay {overflow-y: auto;}
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
     }
-  }
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
 
 
 /*DESTAQUE*/
@@ -189,15 +204,17 @@ body {
 }
 
 #add-cestinha {
-    border: solid black 5px;
-    align-self: auto;
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-items: flex-start;
 }
 
 #add-cestinha div {
     margin: 5px;
     width: 30px;
     height: 30px;
-    display: inline-block;
 }
 
 #add-cestinha .form {
@@ -205,14 +222,13 @@ body {
     margin: auto;
     width: 50%;
     padding: 10px;
-    display: inline-flex;
 }
 
 #add-cestinha img {
-    align-items: center;
+    margin-left: 10px;
     width: 30px;
     height: 30px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 
@@ -253,6 +269,31 @@ body {
     align-items: center;
     color: green;
     margin-top: 50px;
+}
+
+
+/* ANIMAÇÕES */
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
+
+@keyframes zoom-out {
+    0% {
+        transform: scale(3);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 #carregaStorage button {

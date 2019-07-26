@@ -12,27 +12,26 @@
     <title>MyBag Style</title>
 </head>
 
-<body onload = "Infantil()">
+<body onload="Infantil()" style="opacity: 0">
     <header>
-            <nav class="navmenu">
-            
-                    <div id="myNav" class="overlay">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <div class="overlay-content">
-                            <a href="#">Home</a>
-                            <a href="masculino-mybag.html">Masculino</a>
-                            <a href="feminina-mybag.html">Feminina</a>
-                            <a href="infantil-mybag.html">Infantil</a>
-                            <a href="viagem-mybag.html">Viagem</a>
-                        </div>
-                    </div>
-        
-                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-                    <h1>My Bag - Style </h1>
-                    <div>
-                        <span></span>
-                    </div>
-                </nav>
+        <nav class="navmenu">
+            <div>
+                <img src="img/back.svg" alt="Ícone do menu" onclick="voltar()">
+            </div>
+            <h1>My Bag - Style </h1>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="home-mybag.html">Home</a>
+                    <a href="masculino-mybag.html">Masculino</a>
+                    <a href="feminina-mybag.html">Feminina</a>
+                    <a href="infantil-mybag.html">Infantil</a>
+                    <a href="viagem-mybag.html">Viagem</a>
+                </div>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </nav>
     </header>
 
     <section id="mochilas"></section>

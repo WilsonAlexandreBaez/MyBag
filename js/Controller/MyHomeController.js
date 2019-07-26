@@ -1,11 +1,18 @@
 function listaConteudo() {
+    document.querySelector("body").style.animation = "zoom-out .8s"
+
+    setTimeout(() => {
+        document.querySelector("body").style.opacity = "1"
+
+    }, 800);
     let produtosCadastrados = ControleProdutos.buscarTodos()
 
     for (let i = 0; i < produtosCadastrados.length; i++) {
         const element = produtosCadastrados[i];
 
         document.getElementById("mochilas").innerHTML +=
-            /*html */`
+            /*html */
+            `
             <div>
                 <div class="img-produto">
                 <img src="${element.img}" alt="${element.nome}">
@@ -23,8 +30,8 @@ function listaConteudo() {
 
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
-  }
-  
-  function closeNav() {
+}
+
+function closeNav() {
     document.getElementById("myNav").style.height = "0%";
-  }
+}
