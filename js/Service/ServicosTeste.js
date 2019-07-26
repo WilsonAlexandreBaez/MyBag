@@ -1,3 +1,3 @@
 function masculino() {
-    alert("teste ok!!")
+    alert ("ola mundo")
 }

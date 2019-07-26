@@ -31,4 +31,5 @@ class ControleProdutos {
         //atualizar lista do localstorage
         localStorage.setItem('produtos_db', JSON.stringify(cadastrados))
     }
+   
 }

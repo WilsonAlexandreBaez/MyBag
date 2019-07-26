@@ -1,3 +1,4 @@
+
 function masculino() {
     document.querySelector("body").style.animation = "zoom-out .8s"
 
@@ -15,7 +16,7 @@ function masculino() {
             document.getElementById("mochilas").innerHTML +=
                 /*html */
                 `<div>
-    <div class="img-produto">
+    <div class="img-produto" >
     <img src="${element.img}" alt="${element.nome}">
     </div>
     <div class="mochilas-descricao">
@@ -23,6 +24,12 @@ function masculino() {
         <p class="categoria">Categoria:${element.categoria}</p>
         <p class="descricao">${element.descricao}</p>
         <p class="preco">${element.preco}</p>
+        <div id="add-cestinha">
+        <form>
+        <input type="number" name="quantidade" min="1" max="5">
+        </form>
+            <img src="${element.add}" alt=""  onclick = "comprar()">
+        </div>
     </div>
         `
         }
@@ -52,6 +59,12 @@ function Feminina() {
         <p class="categoria">Categoria:${element.categoria}</p>
         <p class="descricao">${element.descricao}</p>
         <p class="preco">${element.preco}</p>
+        <div id="add-cestinha">
+        <form>
+        <input type="number" name="quantidade" min="1" max="5">
+        </form>
+            <img src="${element.add}" alt="" >
+        </div>
     </div>
         `
         }
@@ -81,7 +94,13 @@ function Infantil() {
             <p class="categoria">Categoria:${element.categoria}</p>
             <p class="descricao">${element.descricao}</p>
             <p class="preco">${element.preco}</p>
-        </div>
+            <div id="add-cestinha">
+            <form>
+            <input type="number" name="quantidade" min="1" max="5">
+            </form>
+                <img src="${element.add}" alt="" >
+            </div>
+            </div>
             `
         }
     }
@@ -136,6 +155,9 @@ function voltar() {
         history.go(-1)
 
     }, 800);
+}
+function comprar (){
+    let produtosSelecionados =  getItem(produtosSelecionados[i])
 }
 
 function openNav() {
