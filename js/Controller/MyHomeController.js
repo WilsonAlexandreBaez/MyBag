@@ -22,19 +22,20 @@ function listaConteudo() {
                     <p class="categoria">Categoria:${element.categoria}</p>
                     <p class="descricao">${element.descricao}</p>
                     <p class="preco">${element.preco}</p>
-                    <div id="add-cestinha">
-                    <form>
-                    <input type="number" name="quantidade" min="1" max="5">
-                    </form>
-                        <img src="${element.add}" alt=""  onclick = "comprar()">
-                    </div>
+                   
              </div>`
     }
 
 }
+/* <div id="add-cestinha">
+                    <form>
+                    <input type="number" name="quantidade" min="1" max="5">
+                    </form>
+                        <img src="${element.add}" alt=""  onclick = "comprar()">
+                    </div>*/
 
 function comprar (){
-    let produtosSelecionados =  getItem(produtosSelecionados[i])
+    alert("Produto adcionado com Sucesso!!!")
 }
 function openNav() {
     document.getElementById("myNav").style.height = "100%";

@@ -112,6 +112,7 @@ figure:hover span {
 }
 
 figure {
+    top: 50px;
     max-width: 937px;
     height: 454px;
     position: relative;

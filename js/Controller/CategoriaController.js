@@ -24,12 +24,7 @@ function masculino() {
         <p class="categoria">Categoria:${element.categoria}</p>
         <p class="descricao">${element.descricao}</p>
         <p class="preco">${element.preco}</p>
-        <div id="add-cestinha">
-        <form>
-        <input type="number" name="quantidade" min="1" max="5">
-        </form>
-            <img src="${element.add}" alt=""  onclick = "comprar(produtos_db[i]">
-        </div>
+        
     </div>
         `
         }
@@ -59,12 +54,7 @@ function Feminina() {
         <p class="categoria">Categoria:${element.categoria}</p>
         <p class="descricao">${element.descricao}</p>
         <p class="preco">${element.preco}</p>
-        <div id="add-cestinha">
-        <form>
-        <input type="number" name="quantidade" min="1" max="5">
-        </form>
-            <img src="${element.add}" alt="" >
-        </div>
+       
     </div>
         `
         }
@@ -94,12 +84,7 @@ function Infantil() {
             <p class="categoria">Categoria:${element.categoria}</p>
             <p class="descricao">${element.descricao}</p>
             <p class="preco">${element.preco}</p>
-            <div id="add-cestinha">
-            <form>
-            <input type="number" name="quantidade" min="1" max="5">
-            </form>
-                <img src="${element.add}" alt="" >
-            </div>
+            
             </div>
             `
         }
@@ -130,17 +115,18 @@ function Viagem() {
             <p class="descricao">${element.descricao}</p>
             <p class="preco">${element.preco}</p>
             
-            <div id="add-cestinha">
+            
+            `
+        }
+    }
+}
+/*<div id="add-cestinha">
             <form>
             <input type="number" id="quantidade" min="1" max="5">
             </form>
                 <img src="${element.add}" alt="" >
             </div>
-            </div>
-            `
-        }
-    }
-}
+            </div> */
 
 function next() {
     document.querySelector("body").style.animation = "zoom-out .8s"
