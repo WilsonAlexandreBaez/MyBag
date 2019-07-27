@@ -15,11 +15,24 @@
 
 <body onload="setaImagem()" style="opacity: 0">
     <header>
-        <nav class="nav">
-            <div class="navmenu">
-                <a href="home-mybag.html"><img src="img/back.svg" alt="Menu Geral"></a>
-                <h1> MyBag Style Ofertas</h1>
-                <div></div>
+        <nav class="navmenu">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="home-mybag.html" class="cor-a">Home</a>
+                    <a href="masculino-mybag.html" class="cor-b">Masculino</a>
+                    <a href="feminina-mybag.html" class="cor-c">Feminina</a>
+                    <a href="infantil-mybag.html" class="cor-d">Infantil</a>
+                    <a href="viagem-mybag.html" class="cor-e">Viagem</a>
+                    <a href="ofertas-mybag.html" class="cor-f">Ofertas</a>
+
+                </div>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <h1>My Bag - Style  Ofertas </h1>
+            <div>
+                <span></span>
             </div>
         </nav>
     </header>
