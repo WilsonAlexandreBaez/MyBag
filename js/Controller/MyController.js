@@ -1,5 +1,10 @@
 function setaImagem() {
+    document.querySelector("body").style.animation = "zoom-out .8s"
 
+    setTimeout(() => {
+        document.querySelector("body").style.opacity = "1"
+
+    }, 800);
     var settings = {
             primeiraImg: function() {
                 elemento = document.querySelector("#slider a:first-child");

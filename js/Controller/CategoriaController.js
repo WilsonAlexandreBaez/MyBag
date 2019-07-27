@@ -28,7 +28,7 @@ function masculino() {
         <form>
         <input type="number" name="quantidade" min="1" max="5">
         </form>
-            <img src="${element.add}" alt=""  onclick = "comprar()">
+            <img src="${element.add}" alt=""  onclick = "comprar(produtos_db[i]">
         </div>
     </div>
         `
@@ -132,7 +132,7 @@ function Viagem() {
             
             <div id="add-cestinha">
             <form>
-            <input type="number" name="quantidade" min="1" max="5">
+            <input type="number" id="quantidade" min="1" max="5">
             </form>
                 <img src="${element.add}" alt="" >
             </div>
@@ -157,7 +157,9 @@ function voltar() {
     }, 800);
 }
 function comprar (){
-    let produtosSelecionados =  getItem(produtosSelecionados[i])
+    let produtosSelecionados =  getItem(produtos_db[i])
+    
+    
 }
 
 function openNav() {
